@@ -62,12 +62,13 @@ Also, Said Achmiz compiled a list of [“Screen serif” fonts](https://blog.obo
 
 If you are using a different font, you will have to tweak the line spacing and font size yourself. You might find [this](https://grtcalculator.com/) to be useful.
 
+If you have more suggestions for serif (or sans-serif) fonts suitable for screen reading, please let me know. I really want to explore more options.
+
 ## More screenshots
 
 Sample article: [Riemann sphere](https://en.wikipedia.org/wiki/Riemann_sphere)
 
 Please compare the images in full-screen mode for better visibility.
-
 
 ### Before
 

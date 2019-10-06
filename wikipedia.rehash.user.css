@@ -7,9 +7,9 @@
 @license        CC-BY-NC-4.0
 @author         Krasjet
 ==/UserStyle== */
-@-moz-document domain("en.wikipedia.org"),
-domain("en.wikibooks.org"),
-domain("en.wiktionary.org") {
+@-moz-document domain("wikipedia.org"),
+domain("wikibooks.org"),
+domain("wiktionary.org") {
   /* narrower body */
   body {
     max-width: 68rem;
@@ -75,6 +75,10 @@ domain("en.wiktionary.org") {
   }
 
   /* slightly smaller font size for various elements */
+  /*
+   * I'm using Fira Mono as my monospace font.
+   * You might have to tweak this part for your setup.
+   */
   pre,
   code,
   .monospaced {

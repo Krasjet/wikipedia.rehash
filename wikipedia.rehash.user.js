@@ -7,6 +7,7 @@
 // @homepageURL  https://github.com/Krasjet/wikipedia.rehash
 // @match        *://*.wikipedia.org/*
 // @match        *://*.wikibooks.org/*
+// @match        *://*.mediawiki.org/*
 // @match        *://*.wiktionary.org/*
 // @grant        none
 // ==/UserScript==

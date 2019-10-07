@@ -9,6 +9,7 @@
 ==/UserStyle== */
 @-moz-document domain("wikipedia.org"),
 domain("wikibooks.org"),
+domain("mediawiki.org"),
 domain("wiktionary.org") {
   /* narrower body */
   body {

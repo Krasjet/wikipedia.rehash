@@ -2,7 +2,7 @@
 
 A minimal typographic rehash of [Wikipedia](https://www.wikipedia.org/), designed for screen readability. Currently very alpha and only tested on English Wikipedia pages.
 
-![plain wikipedia](./imgs/wikipedia.png)
+![rehashed wikipedia](./imgs/wikipedia.png)
 
 ## Introduction
 
@@ -84,7 +84,7 @@ Here are some other options:
 - [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks decent
 - [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free)
 - [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font, it has a very large character set.
-- [Linux Libertine](http://libertine-fonts.org/) (free): still too thin for screen reading
+- [Linux Libertine](http://libertine-fonts.org/) (free): the font used in Wikipedia's logo, but still too thin for screen reading
 - [Palatino](https://www.myfonts.com/fonts/linotype/palatino/): if you don't have other options
 - [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): still, if you don't have other options
 

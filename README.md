@@ -30,14 +30,14 @@ wikipedia.rehash consists of **three** parts:
 
 There are multiple ways to install this stylesheet. Pick any **one** of them.
 
-#### Option 1: CSS Injection [Recommanded]
+#### Option 1: CSS Injection [Recommended]
 
 I would recommend this approach because you can turn on/off the theme easily if you encounter any layout issues.
 
 1. You will have to first install a userstyles manager such as [Stylus](https://add0n.com/stylus.html) or [Xstyle](https://github.com/kriszyp/xstyle).
 2. [Click here](https://raw.githubusercontent.com/Krasjet/wikipedia.rehash/master/wikipedia.rehash.user.css) to install the stylesheet.
 
-#### Option 2: Custom CSS [Recommanded]
+#### Option 2: Custom CSS [Recommended]
 
 If you have a Wikipedia account, you can apply a global custom CSS stylesheet to your account. Go to **Preferences** > **Appearance** > **Skin** > **Vector** > **Custom CSS** (> **Edit Source**, if you already have a custom CSS). Copy-paste everything inside [`vector.rehash.css`](https://github.com/Krasjet/wikipedia.rehash/blob/master/vector.rehash.css) to the editor then click **Publish page**.
 
@@ -57,14 +57,14 @@ If you are not using the [Popups](https://www.mediawiki.org/wiki/Extension:Popup
 
 If you do think it's necessary to fix the issue of pop-up windows, pick either **one** of the following.
 
-#### Option 1: JavaScript Injection [Recommanded]
+#### Option 1: JavaScript Injection [Recommended]
 
 Still, you can turn on/off the theme easily if you encounter any layout issues.
 
 1. You will have to first install a userscript manager such as [Greasemonkey](https://www.greasespot.net/) (Firefox only) or [Tampermonkey](https://www.tampermonkey.net/).
 2. [Click here](https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.js) to install the userscript.
 
-#### Option 2: Custom JavaScript [Recommanded]
+#### Option 2: Custom JavaScript [Recommended]
 
 If you have a Wikipedia account, you can apply a global custom JavaScript to your account. Go to **Preferences** > **Appearance** > **Skin** > **Vector** > **Custom JavaScript** (> **Edit Source**, if you already have a custom JavaScript). Copy-paste everything inside [`vector.rehash.js`](https://github.com/Krasjet/wikipedia.rehash/blob/master/vector.rehash.js) to the editor then click **Publish page**.
 

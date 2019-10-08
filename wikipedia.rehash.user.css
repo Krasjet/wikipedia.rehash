@@ -2,7 +2,7 @@
 @name           wikipedia.rehash
 @namespace      krasjet
 @homepageURL    https://github.com/Krasjet/wikipedia.rehash
-@version        0.3.0
+@version        0.3.1
 @description    A minimal typographic rehash of Wikipedia aimed at better screen readability.
 @license        CC-BY-NC-4.0
 @author         Krasjet
@@ -63,6 +63,12 @@ domain("wiktionary.org") {
 
   #content {
     background-color: #fcfcfc;
+  }
+
+  /* remove the gradient of the banner */
+  #mw-page-base {
+    background-color: #fdfdfd;
+    background-image: none !important;
   }
 
   /* prevent math image overflow */

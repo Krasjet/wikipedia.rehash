@@ -1,4 +1,4 @@
-// wikipedia.rehash 0.3.0
+// wikipedia.rehash 0.3.1
 //  - Krasjet
 // A minimal typographic rehash of Wikipedia aimed at better screen readability.
 // homepage: https://github.com/Krasjet/wikipedia.rehash

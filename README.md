@@ -83,7 +83,7 @@ Here are some other options:
 - [FF Scala](https://www.myfonts.com/fonts/fontfont/ff-scala): the glyph design is my favorite, but it might be too thin for screen reading.
 - [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks decent on screen.
 - [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): very nice old style serif.
-- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro): also very nice old style serif with Greek and Cyrillic support.
+- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro): (free) also very nice old style serif with Greek and Cyrillic support.
 - [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free)
 - [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font, and it has a very large character set.
 - [Linux Libertine](http://libertine-fonts.org/) (free): the font used in Wikipedia's logo, but still too thin for screen reading.

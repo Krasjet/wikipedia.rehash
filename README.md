@@ -80,13 +80,15 @@ I'm using Charter as the default font because it is free and relatively suitable
 
 Here are some other options:
 
-- [FF Scala](https://www.myfonts.com/fonts/fontfont/ff-scala): I love the design of each character in this font, but it might be too thin for screen reading.
-- [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks decent
+- [FF Scala](https://www.myfonts.com/fonts/fontfont/ff-scala): the glyph design is my favorite, but it might be too thin for screen reading.
+- [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks decent on screen.
+- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): very nice old style serif.
+- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro): also very nice old style serif with Greek and Cyrillic support.
 - [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free)
-- [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font, it has a very large character set.
-- [Linux Libertine](http://libertine-fonts.org/) (free): the font used in Wikipedia's logo, but still too thin for screen reading
-- [Palatino](https://www.myfonts.com/fonts/linotype/palatino/): if you don't have other options
-- [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): still, if you don't have other options
+- [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font, and it has a very large character set.
+- [Linux Libertine](http://libertine-fonts.org/) (free): the font used in Wikipedia's logo, but still too thin for screen reading.
+- [Palatino](https://www.myfonts.com/fonts/linotype/palatino/): if you don't have other options.
+- [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): still, if you don't have other options.
 
 Also, Said Achmiz compiled a list of [“Screen serif” fonts](https://blog.obormot.net/Screen-serif-fonts). You can find more options in the blog post.
 

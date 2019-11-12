@@ -1,5 +1,5 @@
 /*
- * wikipedia.rehash 1.0.0
+ * wikipedia.rehash 1.0.1
  *  - Krasjet
  * A minimal typographic rehash of Wikipedia aimed at better screen readability.
  * homepage: https://github.com/Krasjet/wikipedia.rehash
@@ -72,6 +72,11 @@ dd .mwe-math-fallback-image-inline {
 /* fix the equation box issue */
 .equation-box dd .mwe-math-fallback-image-inline {
   max-width: none !important;
+}
+
+/* fix numbered equations */
+dd td {
+  width: initial !important;
 }
 
 /* slightly smaller font size for various elements */

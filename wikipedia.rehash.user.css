@@ -2,7 +2,7 @@
 @name           wikipedia.rehash
 @namespace      krasjet
 @homepageURL    https://github.com/Krasjet/wikipedia.rehash
-@version        1.0.0
+@version        1.0.1
 @description    A minimal typographic rehash of Wikipedia aimed at better screen readability.
 @license        CC-BY-NC-4.0
 @author         Krasjet
@@ -79,6 +79,11 @@ domain("wiktionary.org") {
   /* fix the equation box issue */
   .equation-box dd .mwe-math-fallback-image-inline {
     max-width: none !important;
+  }
+
+  /* fix numbered equations */
+  dd td {
+    width: initial !important;
   }
 
   /* slightly smaller font size for various elements */

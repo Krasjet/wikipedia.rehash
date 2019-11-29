@@ -123,6 +123,14 @@ If you want to know more about the design principles, here are some further read
 - [Butterick’s Practical Typography](https://practicaltypography.com)
 - [The Elements *of Typographic Style*](https://www.amazon.com/dp/0881792128/)
 
+## Known issues
+
+Sometimes the pop-up window of inline reference does not align vertically with the link.
+
+![vert_align](./imgs/vert_align.png)
+
+If you know why this happens or how to fix it, please let me know or send a pull request. Thank you.
+
 ## (Maybe) related projects
 
 Some alternatives to try if you want a more elaborated redesign.

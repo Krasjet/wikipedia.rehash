@@ -6,7 +6,7 @@ This is a minimal typographical rehash of [Wikipedia](https://www.wikipedia.org/
 
 ## Introduction
 
-[wikipedia.rehash](https://github.com/Krasjet/wikipedia.rehash) is a [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS)/[UserScript](https://greasyfork.org/en) twin adapted from a bookmarklet I wrote earlier that fixes overly wide web pages[an example can be found [here](http://www.geofex.com/Article_Folders/phasers/phase.html)]{.mgnote}. This issue is very common in websites designed before 2005(-ish), when [4:3](https://en.wikipedia.org/wiki/Display_aspect_ratio) monitors were widely used.
+[wikipedia.rehash](https://github.com/Krasjet/wikipedia.rehash) is a [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS)/[UserScript](https://greasyfork.org/en) twin adapted from a bookmarklet I wrote earlier that fixes overly wide web pages (an example can be found [here](http://www.geofex.com/Article_Folders/phasers/phase.html)). This issue is very common in websites designed before 2005(-ish), when [4:3](https://en.wikipedia.org/wiki/Display_aspect_ratio) monitors were widely used.
 
 This kind of **full-width layout** probably looked fine back then, but the overly wide paragraphs and the tiny font size are unreadable on a HiDPI, 16:9 monitor commonly used today. Wikipedia is, unfortunately, one of the adopters of this kind of full-width layout.
 

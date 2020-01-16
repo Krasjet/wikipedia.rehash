@@ -1,26 +1,28 @@
 # wikipedia.rehash
 
-A minimal typographic rehash of [Wikipedia](https://www.wikipedia.org/), designed for screen readability. Currently very alpha and only tested on English Wikipedia pages.
+This is a minimal typographical rehash of [Wikipedia](https://www.wikipedia.org/) designed for screen readability. It's currently very alpha and only tested on English, Japanese, and (Traditional + Simplified) Chinese Wikipedia pages.
 
 ![rehashed wikipedia](./imgs/wikipedia.png)
 
 ## Introduction
 
-[wikipedia.rehash](https://github.com/Krasjet/wikipedia.rehash) is a [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS) / [UserScript](https://greasyfork.org/en) combo adapted from a bookmarklet I wrote earlier to fix overly wide web pages like [this](http://www.geofex.com/Article_Folders/phasers/phase.html). This issue is very common to websites designed before 2005(-ish), when [4:3](https://en.wikipedia.org/wiki/Display_aspect_ratio) monitors are widely used.
+[wikipedia.rehash](https://github.com/Krasjet/wikipedia.rehash) is a [UserCSS](https://github.com/openstyles/stylus/wiki/UserCSS)/[UserScript](https://greasyfork.org/en) twin adapted from a bookmarklet I wrote earlier that fixes overly wide web pages[an example can be found [here](http://www.geofex.com/Article_Folders/phasers/phase.html)]{.mgnote}. This issue is very common in websites designed before 2005(-ish), when [4:3](https://en.wikipedia.org/wiki/Display_aspect_ratio) monitors were widely used.
 
-This kind of **no-margin layout** probably looked okay back then, but overly wide paragraphs and tiny font sizes are unreadable on a HiDPI, 16:9 monitor commonly used today. Wikipedia is, unfortunately, one of the adopters of the no-margin layout.
+This kind of **full-width layout** probably looked fine back then, but the overly wide paragraphs and the tiny font size are unreadable on a HiDPI, 16:9 monitor commonly used today. Wikipedia is, unfortunately, one of the adopters of this kind of full-width layout.
 
-I'm getting tired of fixing layout issues every time I open a Wikipedia article, so this project was born.
+I'm getting tired of fixing layout issues every time I open a Wikipedia article, so wikipedia.rehash was born.
 
-This project is still in the alpha stage. I might add more rules and options in the future when I encounter more problems. Pull requests are welcome.
+This project is still in the alpha stage. I might add some additional rules and options in the future when I encounter more problems. You can send me a pull request on [GitHub](https://github.com/Krasjet/wikipedia.rehash) if you have any suggestions.
 
 ## Features
 
-- fix the **line length** issues of Wikipedia's default layout (note that the current line length is still probably wider than some recommended values to accommodate math formulas, code, floating boxes, etc.)
-- apply a more readable **font size**
-- (opinionated) change the body text font to a screen-readable **serif** (default is [Charter](https://en.wikipedia.org/wiki/Bitstream_Charter)) in order to better match math formulas
-- (opinionated) slightly lower the contrast ratio of body text
-- keep the vanilla look of Wikipedia, unlike some heavier redesign of Wikipedia. The goal of this project is to **fix** Wikipedia and be **minimal**, not to **redesign** it.
+Currently, the stylesheet will
+
+- fix the **line length** issues of Wikipedia's default layout (note that the new line width is still wider than usual to accommodate formulas, code, floating boxes, etc.)
+- Apply a more readable **font size**
+- (opinionated) the default English font is [Charter](https://en.wikipedia.org/wiki/Bitstream_Charter) and 明朝体 / 明體 / 宋体 system fonts for Japanese/Chinese) in order to better match math formulas.
+- (opinionated) **Slightly** lower the contrast ratio of body text
+- and, finally, unlike some heavier redesign of Wikipedia, it will keep the vanilla look of Wikipedia. The goal of this project is to **fix** Wikipedia and be **minimal**, not to **redesign** it..
 
 ## Installation
 
@@ -39,7 +41,9 @@ I would recommend this approach because you can turn on/off the theme easily if 
 
 #### Option 2: Custom CSS [Recommended]
 
-If you have a Wikipedia account, you can apply a global custom CSS stylesheet to your account. Go to **Preferences** > **Appearance** > **Skin** > **Vector** > **Custom CSS** (> **Edit Source**, if you already have a custom CSS). Copy-paste everything inside [`vector.rehash.css`](https://github.com/Krasjet/wikipedia.rehash/blob/master/vector.rehash.css) to the editor then click **Publish page**.
+If you have a Wikipedia account, you can apply a global custom CSS stylesheet specific to your account.
+
+Go to **Preferences** > **Appearance** > **Skin** > **Vector** > **Custom CSS** (and > **Edit Source**, if you already have a custom CSS). Copy-paste everything inside [`vector.rehash.css`](vector.rehash.css) to the editor then click **Publish page**.
 
 An example can be found [here](https://en.wikipedia.org/wiki/User:Krasjet/vector.css).
 
@@ -51,7 +55,7 @@ If you are using Firefox, you can append the content of [`wikipedia.rehash.user.
 
 ### 2. JavaScript [Optional]
 
-Because Mediawiki's [Popups](https://www.mediawiki.org/wiki/Extension:Popups) extension dynamically computes the location of each pop-up window, I have to use some JavaScript code to dynamically adjust the pop-up window locations. This solution is not elegant. If you have a better solution, please let me know.
+Because Mediawiki's [Popups](https://www.mediawiki.org/wiki/Extension:Popups) extension computes the location of each pop-up window dynamically, I have to use some JavaScript code to dynamically adjust the pop-up window locations. This solution is not elegant. If you have a better solution, please let me know.
 
 If you are not using the [Popups](https://www.mediawiki.org/wiki/Extension:Popups) extension (which can be turned off by **Preferences** > **Appearance** > **Reading preferences** > **Page previews** > **Disable**), you **do not** need to install the customized JavaScript file.
 
@@ -66,33 +70,36 @@ Still, you can turn on/off the theme easily if you encounter any layout issues.
 
 #### Option 2: Custom JavaScript [Recommended]
 
-If you have a Wikipedia account, you can apply a global custom JavaScript to your account. Go to **Preferences** > **Appearance** > **Skin** > **Vector** > **Custom JavaScript** (> **Edit Source**, if you already have a custom JavaScript). Copy-paste everything inside [`vector.rehash.js`](https://github.com/Krasjet/wikipedia.rehash/blob/master/vector.rehash.js) to the editor then click **Publish page**.
+If you have a Wikipedia account, you can apply a global custom JavaScript specific to your account.
+
+Go to **Preferences** > **Appearance** > **Skin** > **Vector** > **Custom JavaScript** (and > **Edit Source**, if you already have a custom JavaScript). Copy-paste everything inside [`vector.rehash.js`](https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.js) to the editor then click **Publish page**.
 
 An example can be found [here](https://en.wikipedia.org/wiki/User:Krasjet/vector.js).
 
 ### 3. Font
 
-wikipedia.rehash will use [Charter](https://en.wikipedia.org/wiki/Bitstream_Charter) as the default body font. You can obtain a free copy of the font [here](https://practicaltypography.com/charter.html). If Charter is not installed, the default serif font on your system will be used.
+wikipedia.rehash will use [Charter](https://en.wikipedia.org/wiki/Bitstream_Charter) as the default English body font. You can obtain a free copy of the font [here](https://practicaltypography.com/charter.html). If Charter is not installed, the default serif font on your system will be used.
 
 If you are using macOS or iOS, Charter is probably [already preinstalled](https://developer.apple.com/fonts/system-fonts/) on your system.
 
-I'm using Charter as the default font because it is free and relatively suitable for screen reading. However, the character set of Charter is fairly limited. You can switch to your favorite font by modifying the stylesheet.
+I'm using Charter as the default English font because it is free and relatively suitable for screen reading. However, the character set of Charter is fairly limited. You can switch to your favorite font by modifying the stylesheet.
 
 Here are some other options:
 
-- [FF Scala](https://www.myfonts.com/fonts/fontfont/ff-scala): the glyph design is my favorite, but it might be too thin for screen reading.
-- [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks decent on screen.
-- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): very nice old style serif.
-- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro): (free) also very nice old style serif with Greek and Cyrillic support.
-- [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free)
-- [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font, and it has a very large character set.
+- [Charis SIL](https://software.sil.org/charis/) (free): a Charter clone with a much larger character set.
+- [FF Scala](https://www.myfonts.com/fonts/fontfont/ff-scala): I love its glyph design, but it might be too thin for screen reading.
+- [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks very decent on screen.
+- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): what you are reading right now. It's a very nice old-style serif.
+- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro): (free) also very nice old-style serif, with Greek and Cyrillic support.
+- [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free): has Greek and Cyrillic support, but it looks too stiff to me.
+- [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font. It has a very large character set.
 - [Linux Libertine](http://libertine-fonts.org/) (free): the font used in Wikipedia's logo, but still too thin for screen reading.
 - [Palatino](https://www.myfonts.com/fonts/linotype/palatino/): if you don't have other options.
 - [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): still, if you don't have other options.
 
 Also, Said Achmiz compiled a list of [“Screen serif” fonts](https://blog.obormot.net/Screen-serif-fonts). You can find more options in the blog post.
 
-If you are using a different font, you will have to tweak the line spacing and font size yourself. You might find [this](https://grtcalculator.com/) to be useful.
+You will have to tweak the line spacing and font size yourself if you are using a different font. You might find [this calculator](https://grtcalculator.com/) to be helpful.
 
 If you have more suggestions for serif (or sans-serif) fonts suitable for screen reading, please let me know. I really want to explore more options.
 
@@ -114,9 +121,17 @@ Please compare the images in full-screen mode for better visibility.
 
 ![wikipedia.rehash](./imgs/tablet.png)
 
+### After rehash [Japanese]
+
+![](./imgs/rehash_jp.png)
+
+### After rehash [Chinese]
+
+![](./imgs/rehash_zh.png)
+
 ## Further readings
 
-If you want to know more about the design principles, here are some further readings.
+If you want to know more about the design principles, these might be interesting to you.
 
 - [58 bytes of css to look great nearly everywhere](https://jrl.ninja/etc/1/)
 - [Long-Form Websites and Typography](https://lawler.io/scrivings/long-form-websites-and-typography/)
@@ -129,7 +144,7 @@ Sometimes the pop-up window of inline reference does not align vertically with t
 
 ![vert_align](./imgs/vert_align.png)
 
-If you know why this happens or how to fix it, please let me know or send a pull request. Thank you.
+If you know why this happens or how to fix it, please let me know or send a pull request on [GitHub](https://github.com/Krasjet/wikipedia.rehash). Thank you.
 
 ## (Maybe) related projects
 
@@ -140,6 +155,6 @@ Some alternatives to try if you want a more elaborated redesign.
 
 ## License
 
-[wikipedia.rehash](https://github.com/Krasjet/wikipedia.rehash) is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). (c) 2019 Krasjet
+[wikipedia.rehash](https://github.com/Krasjet/wikipedia.rehash) is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). (c) 2020 Krasjet.
 
-Please do not use this project for commercial purposes without my consent.
+Please do not use this project for any commercial purposes without my consent.

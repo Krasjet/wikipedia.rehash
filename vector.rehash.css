@@ -1,5 +1,5 @@
 /*
- * wikipedia.rehash 1.0.1
+ * wikipedia.rehash 1.1.0
  *  - Krasjet
  * A minimal typographic rehash of Wikipedia aimed at better screen readability.
  * homepage: https://github.com/Krasjet/wikipedia.rehash
@@ -42,6 +42,34 @@ body {
   font-size: 1.3rem !important;
   line-height: 1.65;
   font-family: charter, serif;
+}
+
+.mw-body-content:lang(ja) {
+  font-size: 1.25rem !important;
+  font-family: charter, "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "Noto Serif CJK JP",
+    "Source Han Serif JP", "MS Mincho", HiraMinProN-W3, serif;
+}
+
+.mw-body-content:lang(zh) {
+  font-size: 1.25rem !important;
+  line-height: 1.7;
+  font-family: charter, "Songti SC", "Songti TC", "Noto Serif CJK SC", "Noto Serif CJK TC",
+    "Source Han Serif CN", "Source Han Serif SC", "Source Han Serif TC", NSimSun, SimSun,
+    "LiSong Pro", PMingLiU, MingLiU, HiraMinProN-W3, serif;
+}
+
+.mw-body-content:lang(zh-Hans) {
+  font-size: 1.25rem !important;
+  line-height: 1.7;
+  font-family: charter, "Songti SC", "Noto Serif CJK SC", "Source Han Serif CN",
+    "Source Han Serif SC", NSimSun, SimSun, "LiSong Pro", PMingLiU, MingLiU, serif;
+}
+
+.mw-body-content:lang(zh-Hant) {
+  font-size: 1.25rem !important;
+  line-height: 1.7;
+  font-family: charter, "Songti TC", "Noto Serif CJK TC", "Source Han Serif CN",
+    "Source Han Serif TC", PMingLiU, STSong, "LiSong Pro", MingLiU, NSimSun, SimSun, serif;
 }
 
 #mw-content-text h2 {

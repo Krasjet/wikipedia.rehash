@@ -86,9 +86,9 @@ I'm using Charter as the default English font because it is free and relatively 
 
 Here are some other options. For more detailed discussion, see [*body text on screens*](https://krasjet.com/choices/body/).
 
-- [Charis SIL](https://software.sil.org/charis/) (free): a Charter clone with a much larger character set, but the design of added glyphs are, in my opinion, not as good as in the Charter licensed to Apple.
+- [Charis SIL](https://software.sil.org/charis/) (free): A Charter clone with a much larger character set, but the design of added glyphs are, in my opinion, not as good as in the Charter licensed to Apple.
 - [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): My go-to replacement for system fonts such as Georgia. It looks very descent on screens, but can be very stagnant.
-- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): What you are reading right now. It's a very nice [**calligraphic old-style**](https://krasjet.com/choices/body/#alegreya-ht-free) serif.
+- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): The typeface I use all the time since the day I bought it. It's a nice [**calligraphic old-style**](https://krasjet.com/choices/body/#alegreya-ht-free) serif
 - [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro) (free): Another very nice **calligraphic old-style** serif, with Greek and Cyrillic support.
 - [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free): Because it's free, the typeface is very popular. The most famous use case might be Gwern Branwen's [personal website](https://www.gwern.net/). It has Greek and Cyrillic support, but it looks too stiff to me.
 - [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font. It has a very large character set.

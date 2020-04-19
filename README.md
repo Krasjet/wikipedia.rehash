@@ -18,11 +18,11 @@ This project is still in the alpha stage. I might add some additional rules and 
 
 Currently, the stylesheet will
 
-- fix the **line length** issues of Wikipedia's default layout (note that the new line width is still wider than usual to accommodate formulas, code, floating boxes, etc.)
-- Apply a more readable **font size**
-- (opinionated) the default English font is [Charter](https://en.wikipedia.org/wiki/Bitstream_Charter) and 明朝体 / 明體 / 宋体 system fonts for Japanese/Chinese) in order to better match math formulas.
-- (opinionated) **Slightly** lower the contrast ratio of body text
-- and, finally, unlike some heavier redesign of Wikipedia, it will keep the vanilla look of Wikipedia. The goal of this project is to **fix** Wikipedia and be **minimal**, not to **redesign** it..
+1. Fix the **line width** issues of Wikipedia's default layout (note that the new line width is still wider than usual to accommodate formulas, code, floating boxes, etc.).
+2. Apply a more readable **font size**.
+3. (Opinionated) Change the body text font to a screen-readable **serif** in order to better match math formulas. The default English font is [Charter](https://en.wikipedia.org/wiki/Bitstream_Charter) and 明朝体 / 明體 / 宋体 system fonts for Japanese/Chinese.
+4. (Opinionated) **Slightly** lower the contrast ratio of body text.
+5. And, finally, unlike some heavier redesign of Wikipedia, it will keep the vanilla look of Wikipedia. The goal of this project is to **fix** Wikipedia and be **minimal**, not to **redesign** it.
 
 ## Installation
 
@@ -82,22 +82,21 @@ wikipedia.rehash will use [Charter](https://en.wikipedia.org/wiki/Bitstream_Char
 
 If you are using macOS or iOS, Charter is probably [already preinstalled](https://developer.apple.com/fonts/system-fonts/) on your system.
 
-I'm using Charter as the default English font because it is free and relatively suitable for screen reading. However, the character set of Charter is fairly limited. You can switch to your favorite font by modifying the stylesheet.
+I'm using Charter as the default English font because it is free and relatively suitable for screen reading. However, the character set of Charter is fairly limited, unless you are on macOS and iOS (Apple has their own version of Charter with expansive character set). You can switch to your favorite font by modifying the stylesheet.
 
-Here are some other options:
+Here are some other options. For more detailed discussion, see [*body text on screens*](https://krasjet.com/choices/body/).
 
-- [Charis SIL](https://software.sil.org/charis/) (free): a Charter clone with a much larger character set.
-- [FF Scala](https://www.myfonts.com/fonts/fontfont/ff-scala): I love its glyph design, but it might be too thin for screen reading.
-- [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): looks very decent on screen.
-- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): what you are reading right now. It's a very nice old-style serif.
-- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro): (free) also very nice old-style serif, with Greek and Cyrillic support.
-- [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free): has Greek and Cyrillic support, but it looks too stiff to me.
+- [Charis SIL](https://software.sil.org/charis/) (free): a Charter clone with a much larger character set, but the design of added glyphs are, in my opinion, not as good as in the Charter licensed to Apple.
+- [Freight Text](https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/): My go-to replacement for system fonts such as Georgia. It looks very descent on screens, but can be very stagnant.
+- [Garibaldi](https://www.harbortype.com/fonts/garibaldi/): What you are reading right now. It's a very nice [**calligraphic old-style**](https://krasjet.com/choices/body/#alegreya-ht-free) serif.
+- [Alegreya ht](https://www.huertatipografica.com/en/fonts/alegreya-ht-pro) (free): Another very nice **calligraphic old-style** serif, with Greek and Cyrillic support.
+- [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/) (free): Because it's free, the typeface is very popular. The most famous use case might be Gwern Branwen's [personal website](https://www.gwern.net/). It has Greek and Cyrillic support, but it looks too stiff to me.
 - [Noto Serif](https://www.google.com/get/noto/) (free): I'm using this as my default system serif font. It has a very large character set.
-- [Linux Libertine](http://libertine-fonts.org/) (free): the font used in Wikipedia's logo, but still too thin for screen reading.
-- [Palatino](https://www.myfonts.com/fonts/linotype/palatino/): if you don't have other options.
-- [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): still, if you don't have other options.
+- [Linux Libertine](http://libertine-fonts.org/) (free): The typeface used in Wikipedia's logo, but strokes might be too thin for screen reading.
+- [Palatino](https://www.myfonts.com/fonts/linotype/palatino/): If you don't have other options.
+- [Georgia](https://www.fonts.com/font/microsoft-corporation/georgia): Still, if you don't have other options.
 
-Also, Said Achmiz compiled a list of [“Screen serif” fonts](https://blog.obormot.net/Screen-serif-fonts). You can find more options in the blog post.
+Said Achmiz also compiled a list of [“Screen serif” fonts](https://blog.obormot.net/Screen-serif-fonts). You can find more options in the blog post.
 
 You will have to tweak the line spacing and font size yourself if you are using a different font. You might find [this calculator](https://grtcalculator.com/) to be helpful.
 
@@ -148,7 +147,7 @@ If you know why this happens or how to fix it, please let me know or send a pull
 
 ## (Maybe) related projects
 
-Some alternatives to try if you want a more elaborated redesign.
+Some alternatives to try if you want a more elaborated redesign. I won't guarantee you will enjoy them, though.
 
 - [Wikiwand](http://www.wikiwand.com/)
 - [WiTeX](https://github.com/AndrewBelt/WiTeX)

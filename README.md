@@ -14,7 +14,7 @@ If you just want to try out wikipedia.rehash, you can install it by
 4. Open up a Wikipedia article, e.g. [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia).
 5. Read the [source code](https://github.com/Krasjet/wikipedia.rehash/blob/master/wikipedia.rehash.user.css) and customize it to your liking, or uninstall it if you don't like what you see.
 
-If you don't want to use extensions, there are alternative options for each step, see [Installations](#installation){.smcp} for details. The source code is intended to be read and customized.
+If you don't want to use extensions, there are alternative options for each step, see [Installations](#installation) for details. The source code is intended to be read and customized.
 
 # The rationale
 

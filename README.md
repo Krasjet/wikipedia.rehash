@@ -69,14 +69,14 @@ Note that wikipedia.rehash consists of **three** parts:
 
 There are multiple ways to install the stylesheet. Pick any **one** of them.
 
-### Option 1: CSS Injection [Recommended] {-}
+### Option 1: CSS Injection [Recommended]
 
 I would recommend this approach because you can turn on/off the theme easily if you encounter any layout issues.
 
 1. First install a userstyles manager such as [Stylus](https://add0n.com/stylus.html) or [Xstyle](https://github.com/kriszyp/xstyle).
 2. [Click here](https://raw.githubusercontent.com/Krasjet/wikipedia.rehash/master/wikipedia.rehash.user.css) to install the stylesheet.
 
-### Option 2: Custom CSS [Recommended] {-}
+### Option 2: Custom CSS [Recommended]
 
 If you have a Wikipedia account, you can apply a global custom CSS stylesheet specific to your account.
 

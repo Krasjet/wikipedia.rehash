@@ -124,6 +124,7 @@ domain("wiktionary.org") {
   }
 
   /* slightly smaller font size for various elements */
+
   /*
    * I'm using Fira Mono as my monospace font.
    * You might have to tweak this part for your setup.

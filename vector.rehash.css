@@ -37,9 +37,9 @@ body {
 }
 
 /*
-   * larger font size and more space between lines
-   * charter can be downloaded here: https://practicaltypography.com/fonts/charter.zip
-   */
+ * larger font size and more space between lines
+ * charter can be downloaded here: https://practicaltypography.com/fonts/charter.zip
+ */
 .mw-body-content {
   font-size: 1.3rem !important;
   line-height: 1.65;
@@ -119,10 +119,11 @@ dd td {
 }
 
 /* slightly smaller font size for various elements */
+
 /*
-   * I'm using Fira Mono as my monospace font.
-   * You might have to tweak this part for your setup.
-   */
+ * I'm using Fira Mono as my monospace font.
+ * You might have to tweak this part for your setup.
+ */
 pre,
 code,
 .monospaced {

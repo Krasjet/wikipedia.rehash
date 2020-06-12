@@ -2,8 +2,8 @@
 @name           wikipedia.rehash
 @namespace      krasjet
 @homepageURL    https://github.com/Krasjet/wikipedia.rehash
-@version        1.1.0
-@description    A minimal typographic rehash of Wikipedia aimed at better screen readability.
+@version        1.2.0
+@description    A minimal typographic rehash of Wikipedia designed for better screen readability.
 @license        CC-BY-NC-4.0
 @author         Krasjet
 ==/UserStyle== */
@@ -51,6 +51,14 @@ domain("wiktionary.org") {
     font-family: charter, serif;
   }
 
+  /* hyphenation, only available on firefox, legacy edge, and safari */
+  .mw-body-content p {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  /* CJK typefaces */
   .mw-body-content:lang(ja) {
     font-size: 1.25rem !important;
     font-family: charter, "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "Noto Serif CJK JP",
@@ -79,6 +87,7 @@ domain("wiktionary.org") {
       "Source Han Serif TC", PMingLiU, STSong, "LiSong Pro", MingLiU, NSimSun, SimSun, serif;
   }
 
+  /* less intrusive heading size */
   #mw-content-text h2 {
     margin-top: 1.15rem;
     font-size: 120% !important;

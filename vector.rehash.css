@@ -1,9 +1,11 @@
 /*
- * wikipedia.rehash 1.1.0
+ * wikipedia.rehash 1.2.0
  *  - Krasjet
- * A minimal typographic rehash of Wikipedia aimed at better screen readability.
+ * A minimal typographic rehash of Wikipedia designed for better screen readability.
+ *
  * homepage: https://github.com/Krasjet/wikipedia.rehash
  */
+
 /* narrower body */
 body {
   max-width: 68rem;
@@ -35,15 +37,23 @@ body {
 }
 
 /*
- * larger font size and more space between lines
- * charter can be downloaded here: https://practicaltypography.com/fonts/charter.zip
- */
+   * larger font size and more space between lines
+   * charter can be downloaded here: https://practicaltypography.com/fonts/charter.zip
+   */
 .mw-body-content {
   font-size: 1.3rem !important;
   line-height: 1.65;
   font-family: charter, serif;
 }
 
+/* hyphenation, only available on firefox, legacy edge, and safari */
+.mw-body-content p {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+/* CJK typefaces */
 .mw-body-content:lang(ja) {
   font-size: 1.25rem !important;
   font-family: charter, "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "Noto Serif CJK JP",
@@ -72,6 +82,7 @@ body {
     "Source Han Serif TC", PMingLiU, STSong, "LiSong Pro", MingLiU, NSimSun, SimSun, serif;
 }
 
+/* less intrusive heading size */
 #mw-content-text h2 {
   margin-top: 1.15rem;
   font-size: 120% !important;
@@ -109,9 +120,9 @@ dd td {
 
 /* slightly smaller font size for various elements */
 /*
- * I'm using Fira Mono as my monospace font.
- * You might have to tweak this part for your setup.
- */
+   * I'm using Fira Mono as my monospace font.
+   * You might have to tweak this part for your setup.
+   */
 pre,
 code,
 .monospaced {

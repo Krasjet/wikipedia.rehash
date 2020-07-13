@@ -253,7 +253,7 @@ Here are some other options I recommend.
 [charis]: https://software.sil.org/charis/
 [freight]: https://philsfonts.com/font-family/garagefonts/freight-text/GF060014X1/
 [garibaldi]: https://www.harbortype.com/fonts/garibaldi/
-[call_oldstyle]: https://krasjet.com/choices/body/#alegreya-ht-free)
+[call_oldstyle]: https://krasjet.com/choices/body/#alegreya-ht-free
 [alegreya]: https://www.huertatipografica.com/en/fonts/alegreya-ht-pro
 [src_serif]: https://adobe-fonts.github.io/source-serif-pro/
 [gwern]: https://www.gwern.net/

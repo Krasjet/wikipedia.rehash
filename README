@@ -1,0 +1,36 @@
+wikipedia.rehash
+================
+
+wikipedia.rehash a minimal typographical rehash of Wikipedia, specifically
+designed for *screen readability*. It's currently very alpha and only tested on
+English, Japanese, and Chinese Wikipedia pages, but it will probably work under
+most languages.
+
+Installation
+------------
+
+If you want to try out wikipedia.rehash, you can install it by following the
+steps below
+
+1. Install Stylus [1], then open [2] in browser to install the UserCSS.
+2. Install Tampermonkey [3], then open [4] in browser to install the UserScript
+   (The UserScript is optional. It's a hack to fix a slight annoyance).
+3. If you are not on iOS or macOS, install Charter [5], or use another typeface
+   you like.
+4. Open up a Wikipedia article
+5. Read the source code [6] and customize it to your liking, or uninstall it if
+   you don't like what you see.
+
+If you don't want to use extensions, there are alternative options for each
+step, see
+
+  https://krasjet.com/voice/wikipedia.rehash/#installation
+
+for details. The source code is intended to be read and customized.
+
+[1]: https://github.com/openstyles/stylus
+[2]: https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.css
+[3]: https://www.tampermonkey.net/
+[4]: https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.js
+[5]: https://practicaltypography.com/charter.html
+[6]: ./wikipedia.rehash.user.css

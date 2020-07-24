@@ -1,11 +1,12 @@
 /* ==UserStyle==
-@name           wikipedia.rehash
+@name           wikipedia.rehash [css]
 @namespace      krasjet
-@homepageURL    https://github.com/Krasjet/wikipedia.rehash
-@version        1.2.0
-@description    A minimal typographic rehash of Wikipedia designed for better screen readability.
+@homepageURL    https://krasjet.com/voice/wikipedia.rehash/
+@version        1.2.1
+@description    A minimal typographic rehash of Wikipedia designed for better
+                screen readability.
 @license        CC-BY-NC-4.0
-@author         Krasjet
+@author         krasjet
 ==/UserStyle== */
 @-moz-document domain("wikipedia.org"),
 domain("wikibooks.org"),
@@ -58,7 +59,7 @@ domain("wiktionary.org") {
     hyphens: auto;
   }
 
-  /* CJK typefaces */
+  /* CJK typefaces, remove this if you don't use CJK wikipedia */
   .mw-body-content:lang(ja) {
     font-size: 1.25rem !important;
     font-family: charter, "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "Noto Serif CJK JP",
@@ -123,8 +124,7 @@ domain("wiktionary.org") {
     width: initial !important;
   }
 
-  /* slightly smaller font size for various elements */
-
+  /* font size adjustments for various elements */
   /*
    * I'm using Fira Mono as my monospace font.
    * You might have to tweak this part for your setup.
@@ -147,6 +147,9 @@ domain("wiktionary.org") {
 
   table {
     font-size: 85% !important;
+    /* uncomment this if you want to prevent table overflow */
+    /* display: block;
+       overflow-x: auto; */
   }
 
   table pre,

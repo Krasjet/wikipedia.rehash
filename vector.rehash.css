@@ -1,11 +1,12 @@
 /*
- * wikipedia.rehash 1.2.0
- *  - Krasjet
- * A minimal typographic rehash of Wikipedia designed for better screen readability.
+ * wikipedia.rehash [css] 1.2.1
+ *  - krasjet
  *
- * homepage: https://github.com/Krasjet/wikipedia.rehash
+ * A minimal typographic rehash of Wikipedia designed for better screen
+ * readability.
+ *
+ * homepage: https://krasjet.com/voice/wikipedia.rehash/
  */
-
 /* narrower body */
 body {
   max-width: 68rem;
@@ -53,7 +54,7 @@ body {
   hyphens: auto;
 }
 
-/* CJK typefaces */
+/* CJK typefaces, remove this if you don't use CJK wikipedia */
 .mw-body-content:lang(ja) {
   font-size: 1.25rem !important;
   font-family: charter, "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "Noto Serif CJK JP",
@@ -118,7 +119,7 @@ dd td {
   width: initial !important;
 }
 
-/* slightly smaller font size for various elements */
+/* font size adjustments for various elements */
 
 /*
  * I'm using Fira Mono as my monospace font.
@@ -142,6 +143,9 @@ code,
 
 table {
   font-size: 85% !important;
+  /* uncomment this if you want to prevent table overflow */
+  /* display: block;
+     overflow-x: auto; */
 }
 
 table pre,

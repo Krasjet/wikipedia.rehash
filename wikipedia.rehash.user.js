@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         wikipedia.rehash
+// @name         wikipedia.rehash [js]
 // @namespace    krasjet
-// @version      1.2.0
-// @description  A minimal typographic rehash of Wikipedia designed for better screen readability.
-// @author       Krasjet
-// @homepageURL  https://github.com/Krasjet/wikipedia.rehash
+// @version      1.2.1
+// @description  A minimal typographic rehash of Wikipedia designed for better
+//               screen readability.
+// @author       krasjet
+// @homepageURL  https://krasjet.com/voice/wikipedia.rehash/
 // @match        *://*.wikipedia.org/*
 // @match        *://*.wikibooks.org/*
 // @match        *://*.mediawiki.org/*

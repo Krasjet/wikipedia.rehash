@@ -1,8 +1,10 @@
-// wikipedia.rehash 1.2.0
-//  - Krasjet
-// A minimal typographic rehash of Wikipedia designed for better screen readability.
+// wikipedia.rehash [js] 1.2.1
+//  - krasjet
 //
-// homepage: https://github.com/Krasjet/wikipedia.rehash
+// A minimal typographic rehash of Wikipedia designed for better screen
+// readability.
+//
+// homepage: https://krasjet.com/voice/wikipedia.rehash/
 $(document).ready(function() {
   var body = document.getElementsByTagName("body")[0];
   var marginLeft = window.getComputedStyle(body).getPropertyValue("margin-left");

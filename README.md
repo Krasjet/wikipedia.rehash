@@ -24,11 +24,11 @@ If you just want to try out wikipedia.rehash, you can install it by
    it if you don't like what you see.
 
 [stylus]: https://github.com/openstyles/stylus
-[usercss]: https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.css
+[usercss]: https://github.com/Krasjet/wikipedia.rehash/raw/v2/wikipedia.rehash.user.css
 [tampermonkey]: https://www.tampermonkey.net/
-[userjs]: https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.js
+[userjs]: https://github.com/Krasjet/wikipedia.rehash/raw/v2/wikipedia.rehash.user.js
 [charter]: https://practicaltypography.com/charter.html
-[css_src]: https://github.com/Krasjet/wikipedia.rehash/blob/master/wikipedia.rehash.user.css
+[css_src]: https://github.com/Krasjet/wikipedia.rehash/blob/v2/wikipedia.rehash.user.css
 
 If you don't want to use extensions, there are alternative options for each
 step, see [Installations](#installation) for details. The source code is
@@ -147,7 +147,7 @@ If you already have a custom CSS, you also need to click **Edit Source**.
 Copy-paste everything inside [`vector.rehash.css`][vector_css] to the editor
 then click **Publish page**.
 
-[vector_css]: https://github.com/Krasjet/wikipedia.rehash/blob/master/vector.rehash.css
+[vector_css]: https://github.com/Krasjet/wikipedia.rehash/blob/v2/vector.rehash.css
 
 An example can be found [here][vectorcss_ex].
 
@@ -206,7 +206,7 @@ If you already have a custom JavaScript, you also need to click **Edit
 Source**. Copy-paste everything inside [`vector.rehash.js`][vectorjs] to the
 editor then click **Publish page**.
 
-[vectorjs]: https://github.com/Krasjet/wikipedia.rehash/blob/master/vector.rehash.js
+[vectorjs]: https://github.com/Krasjet/wikipedia.rehash/blob/v2/vector.rehash.js
 
 An example can be found [here][vectorjs_ex].
 

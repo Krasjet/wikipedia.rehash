@@ -1,5 +1,5 @@
 /*
- * wikipedia.rehash [css] 1.2.1
+ * wikipedia.rehash [css] 2.0.0
  *  - krasjet
  *
  * A minimal typographic rehash of Wikipedia designed for better screen
@@ -7,15 +7,6 @@
  *
  * homepage: https://krasjet.com/voice/wikipedia.rehash/
  */
-/* narrower body */
-body {
-  max-width: 68rem;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  float: none;
-  background-color: #fdfdfd;
-}
 
 /* remove the blue border on the left */
 .mw-body {
@@ -87,21 +78,6 @@ body {
 #mw-content-text h2 {
   margin-top: 1.15rem;
   font-size: 120% !important;
-}
-
-/* slightly lower contrast */
-.mw-body-content p {
-  color: #222222;
-}
-
-#content {
-  background-color: #fcfcfc;
-}
-
-/* remove the gradient of the banner */
-#mw-page-base {
-  background-color: #fdfdfd;
-  background-image: none !important;
 }
 
 /* prevent math image overflow */

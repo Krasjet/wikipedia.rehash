@@ -2,7 +2,7 @@
 @name           wikipedia.rehash [css]
 @namespace      krasjet
 @homepageURL    https://krasjet.com/voice/wikipedia.rehash/
-@version        1.2.1
+@version        2.0.0
 @description    A minimal typographic rehash of Wikipedia designed for better
                 screen readability.
 @license        CC-BY-NC-4.0
@@ -12,16 +12,6 @@
 domain("wikibooks.org"),
 domain("mediawiki.org"),
 domain("wiktionary.org") {
-  /* narrower body */
-  body {
-    max-width: 68rem;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    float: none;
-    background-color: #fdfdfd;
-  }
-
   /* remove the blue border on the left */
   .mw-body {
     border-left: none;
@@ -94,21 +84,6 @@ domain("wiktionary.org") {
     font-size: 120% !important;
   }
 
-  /* slightly lower contrast */
-  .mw-body-content p {
-    color: #222222;
-  }
-
-  #content {
-    background-color: #fcfcfc;
-  }
-
-  /* remove the gradient of the banner */
-  #mw-page-base {
-    background-color: #fdfdfd;
-    background-image: none !important;
-  }
-
   /* prevent math image overflow */
   dd .mwe-math-fallback-image-inline {
     max-width: 100% !important;
@@ -172,5 +147,34 @@ domain("wiktionary.org") {
 
   .thumbcaption {
     font-size: 85% !important;
+  }
+}
+
+@-moz-document domain("wikibooks.org"),
+domain("wiktionary.org"),
+domain("zh.wikipedia.org") {
+  /* narrower body */
+  body {
+    max-width: 68rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    float: none;
+    background-color: #fdfdfd;
+  }
+
+  /* slightly lower contrast */
+  .mw-body-content p {
+    color: #222222;
+  }
+
+  #content {
+    background-color: #fcfcfc;
+  }
+
+  /* remove the gradient of the banner */
+  #mw-page-base {
+    background-color: #fdfdfd;
+    background-image: none !important;
   }
 }

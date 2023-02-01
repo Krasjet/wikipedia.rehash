@@ -29,8 +29,8 @@ step, see
 for details. The source code is intended to be read and customized.
 
 [1]: https://github.com/openstyles/stylus
-[2]: https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.css
+[2]: https://github.com/Krasjet/wikipedia.rehash/raw/v2/wikipedia.rehash.user.css
 [3]: https://www.tampermonkey.net/
-[4]: https://github.com/Krasjet/wikipedia.rehash/raw/master/wikipedia.rehash.user.js
+[4]: https://github.com/Krasjet/wikipedia.rehash/raw/v2/wikipedia.rehash.user.js
 [5]: https://practicaltypography.com/charter.html
 [6]: ./wikipedia.rehash.user.css

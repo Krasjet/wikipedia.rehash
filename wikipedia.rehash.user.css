@@ -17,6 +17,11 @@ domain("wiktionary.org") {
     border-left: none;
   }
 
+  /* remove lighter secondary background */
+  .vector-feature-zebra-design-disabled body {
+    background: none;
+  }
+
   /* navbar */
   #mw-panel .portal {
     margin: 0 0.7rem 0 0.5rem;
@@ -151,8 +156,7 @@ domain("wiktionary.org") {
 }
 
 @-moz-document domain("wikibooks.org"),
-domain("wiktionary.org"),
-domain("zh.wikipedia.org") {
+domain("wiktionary.org"){
   /* narrower body */
   body {
     max-width: 68rem;
